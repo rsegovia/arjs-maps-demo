@@ -1,4 +1,6 @@
-{
+//STYLE START//
+const mapURL = "http://osm2vectortiles.tileserver.com/v2.json";
+var style = {
     "layers": [
       {
         "id": "background",
@@ -863,9 +865,21 @@
     "version": 8,
     "sources": {
       "mapbox": {
-        "url": "https://osm2vectortiles.tileserver.com/v2.json",
+        "url": mapURL,
         "type": "vector"
       }
     },
     "id": "giqd6hug7"
   };
+
+//STYLE END//
+
+//
+var mapEl = document.querySelector('a-map');
+
+var mapEl = document.querySelector('a-map')
+mapEl.addEventListener('map-loaded', function () {
+    mapEl.setAttribute('map', 'style', JSON.stringify(style));
+});
+
+

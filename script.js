@@ -890,11 +890,11 @@ mapEl.addEventListener('map-loaded', function (event) {
         var lat = position.coords.latitude;
         console.log("Got Coordinaates " + long + ' ' + lat);
 
-        setProperty(mapEl, 'map.center', long + ' ' + lat);
-        setProperty(mapEl, 'map.zoom', zoom);
+        mapEl.setProperty(mapEl, 'map.center', long + ' ' + lat);
+        mapEl.setProperty(mapEl, 'map.zoom', zoom);
 
-        setProperty(markerEl, 'position', mapEl.components.map.project(long, lat));
-        setProperty(markerEl, 'visible', false);
+        mapEl.setProperty(markerEl, 'position', mapEl.components.map.project(long, lat));
+        mapEl.setProperty(markerEl, 'visible', false);
 
         window.addEventListener("keypress", function (event) {
             if (event.code === "BracketLeft") {

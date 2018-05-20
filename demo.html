@@ -1,0 +1,37 @@
+<html>
+
+<head>
+  <script src="https://aframe.io/releases/0.3.0/aframe.min.js"></script>
+  <script src="https://unpkg.com/aframe-map@2.1.1/dist/aframe-map.min.js"></script>
+  <script>registerAframeMap(window.AFRAME)</script>
+</head>
+
+<body>
+     <a-scene>
+      <a-camera wasd-controls-enabled="false"></a-camera>
+      <a-map
+        width="7"
+        height="4"
+        position="0 2 -4"
+        map="center: 150.6510958 -33.8474024; zoom: 8"
+      >
+        <a-sphere id="marker" color="#EF2D5E" position="0 0 0" visible="false" radius="0.1"></a-sphere>
+      </a-map>
+
+      <a-box position="0 4 -4" width="7.1" height="0.1" depth="0.1" color="#4CC3D9"></a-box>
+      <a-box position="0 0 -4" width="7.1" height="0.1" depth="0.1" color="#4CC3D9"></a-box>
+      <a-box position="3.5 2 -4" width="0.1" height="4.1" depth="0.1" color="#4CC3D9"></a-box>
+      <a-box position="-3.5 2 -4" width="0.1" height="4.1" depth="0.1" color="#4CC3D9"></a-box>
+
+      <a-sky color="#ECECEC"></a-sky>
+
+      <a-entity position="0 0 3.8">
+        <a-camera></a-camera>
+      </a-entity>
+    </a-scene>
+    
+      
+  <script src="custom_style_script.js">  </script>
+</body>
+
+</html>
