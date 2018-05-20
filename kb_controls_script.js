@@ -1,5 +1,5 @@
 //STYLE START//
-const mapURL = "http://osm2vectortiles.tileserver.com/v2.json";
+const mapURL = "https://osm2vectortiles.tileserver.com/v2.json";
 var style = {
     "layers": [
       {
@@ -884,11 +884,12 @@ var setProperty = window.AFRAME.utils.entity.setComponentProperty;
 var mapEl = document.querySelector('a-map')
 mapEl.addEventListener('map-loaded', function () {
     mapEl.setAttribute('map', 'style', JSON.stringify(style));
-
+    //displays map at users current location if allowed
     navigator.geolocation.getCurrentPosition(function (position) {
       var zoom = 10;
       var long = position.coords.longitude;
       var lat = position.coords.latitude;
+      
       console.log("Got Coordinaates " + long + ' ' + lat);
 
       setProperty(mapEl, 'map.center', long + ' ' + lat);
@@ -897,57 +898,54 @@ mapEl.addEventListener('map-loaded', function () {
       // so visibility set to false
       setProperty(markerEl, 'position', mapEl.components.map.project(long, lat));
       setProperty(markerEl, 'visible', false);
-
+      
+      //Zoom controls
       window.addEventListener("keypress", function (event) {
-        if (event.code === "BracketLeft") {
-          zoom++;
+        //console.log(event.code);
+        if (event.code === "BracketLeft" || event.code === "Minus" ||  event.code === "NumpadSubtract" ) {
+          zoom--;
           setProperty(mapEl, 'map.zoom', zoom);
           console.log("zoom out");
         }
-        if (event.code === "BracketRight") {
-          zoom--;
+        if (event.code === "BracketRight" || event.code === "Add" || event.code === "Equal" ||  event.code === "NumpadAdd") {
+          zoom++;
           setProperty(mapEl, 'map.zoom', zoom);
           console.log("zoom in")
         }
-
       });
-
+      //Panning controls
       window.addEventListener("keydown", function (event) {
 
-        if (event.code === "KeyW") {
+        if (event.code === "KeyW" || event.code === "ArrowUp") {
           lat = lat + 0.005;
           setProperty(mapEl, 'map.center', long + ' ' + lat);
           console.log("lat ++");
           console.log(lat);
         }
-        if (event.code === "KeyS") {
+        if (event.code === "KeyS" || event.code === "ArrowDown") {
           lat = lat - 0.005;
           setProperty(mapEl, 'map.center', long + ' ' + lat);
           console.log("lat --")
           console.log(lat);
         }
-        if (event.code === "KeyA") {
+        if (event.code === "KeyA" || event.code === "ArrowLeft") {
           long = long - 0.005;
           setProperty(mapEl, 'map.center', long + ' ' + lat);
           console.log("long --");
           console.log(long);
         }
-        if (event.code === "KeyD") {
+        if (event.code === "KeyD" || event.code === "Arrowright") {
           long = long + 0.005;
           setProperty(mapEl, 'map.center', long + ' ' + lat);
           console.log("long ++")
           console.log(long);
         }
-
       });
-
     }, function (error) {
       console.error(error);
     });
-
 });
 
-// Keyboard control
 
 
       
