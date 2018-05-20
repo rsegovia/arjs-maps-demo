@@ -23,6 +23,9 @@
   <script>
     var mapEl = document.querySelector('a-map');
 
+    var markerEl = document.querySelector('#marker');
+    var setProperty = window.AFRAME.utils.entity.setComponentProperty;
+
     var style = {
       "layers": [
         {
@@ -895,7 +898,6 @@
       "id": "giqd6hug7"
     };
 
-    var mapEl = document.querySelector('a-map')
     mapEl.addEventListener('map-loaded', function () {
       mapEl.setAttribute('map', 'style', JSON.stringify(style));
     });

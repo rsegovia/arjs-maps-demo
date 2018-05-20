@@ -874,12 +874,46 @@ var style = {
 
 //STYLE END//
 
-//
-var mapEl = document.querySelector('a-map');
 
+var mapEl = document.querySelector('a-map');
+var markerEl = document.querySelector('#marker');
+var setProperty = window.AFRAME.utils.entity.setComponentProperty;
+
+
+// Custom vectormap style from osm2vectortiles CDN
 var mapEl = document.querySelector('a-map')
 mapEl.addEventListener('map-loaded', function () {
     mapEl.setAttribute('map', 'style', JSON.stringify(style));
 });
 
+// Keyboard control
 
+mapEl.addEventListener('map-loaded', function (event) {
+
+  navigator.geolocation.watchPosition(function (position) {
+    var long = position.coords.longitude;
+    var lat = position.coords.latitude;
+    setProperty(mapEl, 'map.center', long + ' ' + lat);
+    setProperty(mapEl, 'map.zoom', '10');
+    setProperty(markerEl, 'position', mapEl.components.map.project(long, lat));
+    setProperty(markerEl, 'visible', true);
+    
+    window.addEventListener("keydown", function (event) {
+      if (event.code === "KeyW") {
+        console.log("KeyW");
+      }
+      if (event.code === "KeyS") {
+        console.log("KeyS");
+      }
+      if (event.code === "KeyA") {
+        console.log("KeyA");
+      }
+      if (event.code === "KeyD") {
+        console.log("KeyD");
+      }
+    });
+
+  }, function (error) {
+    console.error(error);
+  });
+});
