@@ -889,31 +889,64 @@ mapEl.addEventListener('map-loaded', function () {
 // Keyboard control
 
 mapEl.addEventListener('map-loaded', function (event) {
-
+  //console.log(event);
   navigator.geolocation.watchPosition(function (position) {
+    var zoom = 10;
     var long = position.coords.longitude;
     var lat = position.coords.latitude;
+    console.log("Got Coordinaates " + long + ' ' + lat);
+
     setProperty(mapEl, 'map.center', long + ' ' + lat);
-    setProperty(mapEl, 'map.zoom', '10');
+    setProperty(mapEl, 'map.zoom', zoom);
     setProperty(markerEl, 'position', mapEl.components.map.project(long, lat));
-    setProperty(markerEl, 'visible', true);
-    
+    setProperty(markerEl, 'visible', false);
+
+    window.addEventListener("keypress", function (event) {
+      if (event.code === "BracketLeft") {
+        zoom++;
+        setProperty(mapEl, 'map.zoom', zoom);
+        console.log("zoom out");
+      }
+      if (event.code === "BracketRight") {
+        zoom--;
+        setProperty(mapEl, 'map.zoom', zoom);
+        console.log("zoom in")
+      }
+
+    });
+
     window.addEventListener("keydown", function (event) {
+
       if (event.code === "KeyW") {
-        console.log("KeyW");
+        lat = lat + 0.005;
+        setProperty(mapEl, 'map.center', long + ' ' + lat);
+        console.log("lat ++");
+        console.log(lat);
       }
       if (event.code === "KeyS") {
-        console.log("KeyS");
+        lat = lat - 0.005;
+        setProperty(mapEl, 'map.center', long + ' ' + lat);
+        console.log("lat --")
+        console.log(lat);
       }
       if (event.code === "KeyA") {
-        console.log("KeyA");
+        long = long - 0.005;
+        setProperty(mapEl, 'map.center', long + ' ' + lat);
+        console.log("long --");
+        console.log(long);
       }
       if (event.code === "KeyD") {
-        console.log("KeyD");
+        long = long + 0.005;
+        setProperty(mapEl, 'map.center', long + ' ' + lat);
+        console.log("long ++")
+        console.log(long);
       }
+
+
     });
 
   }, function (error) {
     console.error(error);
   });
 });
+
