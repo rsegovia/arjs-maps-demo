@@ -1,6 +1,4 @@
-//STYLE START//
-const mapURL = "https://osm2vectortiles.tileserver.com/v2.json";
-var style = {
+{
     "layers": [
       {
         "id": "background",
@@ -865,88 +863,9 @@ var style = {
     "version": 8,
     "sources": {
       "mapbox": {
-        "url": mapURL,
+        "url": "https://osm2vectortiles.tileserver.com/v2.json",
         "type": "vector"
       }
     },
     "id": "giqd6hug7"
   }
-//STYLE END//
-
-
-var mapEl = document.querySelector('a-map');
-var markerEl = document.querySelector('#marker');
-var setProperty = window.AFRAME.utils.entity.setComponentProperty;
-
-
-// Custom vectormap style from osm2vectortiles CDN
-var mapEl = document.querySelector('a-map')
-mapEl.addEventListener('map-loaded', function () {
-    mapEl.setAttribute('map', 'style', JSON.stringify(style));
-    //displays map at users current location if allowed
-    navigator.geolocation.getCurrentPosition(function (position) {
-      var zoom = 10;
-      var long = position.coords.longitude;
-      var lat = position.coords.latitude;
-      
-      console.log("Got Coordinaates " + long + ' ' + lat);
-
-      setProperty(mapEl, 'map.center', long + ' ' + lat);
-      setProperty(mapEl, 'map.zoom', zoom);
-      // can set a marker on the map with project method. not working well with with ar.js.
-      // so visibility set to false
-      setProperty(markerEl, 'position', mapEl.components.map.project(long, lat));
-      setProperty(markerEl, 'visible', false);
-      
-      //Zoom controls
-      window.addEventListener("keypress", function (event) {
-        //console.log(event.code);
-        if (event.code === "BracketLeft" || event.code === "Minus" ||  event.code === "NumpadSubtract" ) {
-          zoom--;
-          setProperty(mapEl, 'map.zoom', zoom);
-          console.log("zoom out");
-        }
-        if (event.code === "BracketRight" || event.code === "Add" || event.code === "Equal" ||  event.code === "NumpadAdd") {
-          zoom++;
-          setProperty(mapEl, 'map.zoom', zoom);
-          console.log("zoom in")
-        }
-      });
-      //Panning controls
-      window.addEventListener("keydown", function (event) {
-
-        if (event.code === "KeyW" || event.code === "ArrowUp") {
-          lat = lat + 0.005;
-          setProperty(mapEl, 'map.center', long + ' ' + lat);
-          console.log("lat ++");
-          console.log(lat);
-        }
-        if (event.code === "KeyS" || event.code === "ArrowDown") {
-          lat = lat - 0.005;
-          setProperty(mapEl, 'map.center', long + ' ' + lat);
-          console.log("lat --")
-          console.log(lat);
-        }
-        if (event.code === "KeyA" || event.code === "ArrowLeft") {
-          long = long - 0.005;
-          setProperty(mapEl, 'map.center', long + ' ' + lat);
-          console.log("long --");
-          console.log(long);
-        }
-        if (event.code === "KeyD" || event.code === "Arrowright") {
-          long = long + 0.005;
-          setProperty(mapEl, 'map.center', long + ' ' + lat);
-          console.log("long ++")
-          console.log(long);
-        }
-      });
-    }, function (error) {
-      console.error(error);
-    });
-});
-
-
-
-      
-
-

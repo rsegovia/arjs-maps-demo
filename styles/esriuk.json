@@ -1,0 +1,4097 @@
+{
+    "version": 8,
+    "sprite": "https://tiles.arcgis.com/tiles/qHLhLQrcvEnxjtPr/arcgis/rest/services/OS_Open_Data_Base/VectorTileServer/resources/styles/../sprites/sprite",
+    "glyphs": "https://tiles.arcgis.com/tiles/qHLhLQrcvEnxjtPr/arcgis/rest/services/OS_Open_Data_Base/VectorTileServer/resources/styles/../fonts/{fontstack}/{range}.pbf",
+    "sources": {
+        "esri": {
+            "type": "vector",
+            "url": "https://tiles.arcgis.com/tiles/qHLhLQrcvEnxjtPr/arcgis/rest/services/OS_Open_Data_Base/VectorTileServer"
+        }
+    },
+    "layers": [
+        {
+            "id": "Background",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "Background",
+            "layout": {},
+            "paint": {
+                "fill-color": "#EEEEF0"
+            }
+        },
+        {
+            "id": "National Parks 0 - 5M",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "National Parks 0 - 5M",
+            "minzoom": 4.88,
+            "layout": {},
+            "paint": {
+                "fill-color": "#EBF0D9"
+            }
+        },
+        {
+            "id": "GB_GreenspaceSite 0 - 100K",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "GB_GreenspaceSite 0 - 100K",
+            "minzoom": 10.53,
+            "layout": {},
+            "paint": {
+                "fill-color": "#E3E8D1"
+            }
+        },
+        {
+            "id": "VMD TidalWater 10K - 20M",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "VMD TidalWater 10K - 20M",
+            "maxzoom": 13.85,
+            "layout": {},
+            "paint": {
+                "fill-color": "#BECDDC"
+            }
+        },
+        {
+            "id": "VMD SurfaceWater 75 - 450K",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "VMD SurfaceWater 75 - 450K",
+            "minzoom": 8.36,
+            "maxzoom": 10.94,
+            "layout": {},
+            "paint": {
+                "fill-color": "#BECDDC"
+            }
+        },
+        {
+            "id": "VMD SurfaceWater 10 - 75K",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "VMD SurfaceWater 10 - 75K",
+            "minzoom": 10.94,
+            "maxzoom": 13.85,
+            "layout": {},
+            "paint": {
+                "fill-color": "#BECDDC"
+            }
+        },
+        {
+            "id": "VMD UrbanArea 300K - 5M",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "VMD UrbanArea 300K - 5M",
+            "minzoom": 4.88,
+            "maxzoom": 8.94,
+            "layout": {},
+            "paint": {
+                "fill-color": "#DADADA"
+            }
+        },
+        {
+            "id": "VMD UrbanArea 50 - 300K",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "VMD UrbanArea 50 - 300K",
+            "minzoom": 8.94,
+            "maxzoom": 11.53,
+            "layout": {},
+            "paint": {
+                "fill-color": "#DADADA"
+            }
+        },
+        {
+            "id": "OML TidalWater  0 - 10K",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "OML TidalWater  0 - 10K",
+            "minzoom": 13.85,
+            "layout": {},
+            "paint": {
+                "fill-color": "#BECDDC"
+            }
+        },
+        {
+            "id": "VMD Foreshore 10K - 2M",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "VMD Foreshore 10K - 2M",
+            "minzoom": 6.21,
+            "maxzoom": 13.85,
+            "layout": {},
+            "paint": {
+                "fill-color": "#FAFAED"
+            }
+        },
+        {
+            "id": "OML Foreshore  0 - 10K",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "OML Foreshore  0 - 10K",
+            "minzoom": 13.85,
+            "layout": {},
+            "paint": {
+                "fill-color": "#FAFAED"
+            }
+        },
+        {
+            "id": "VMD Woodland 75 - 750K",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "VMD Woodland 75 - 750K",
+            "minzoom": 7.62,
+            "maxzoom": 10.94,
+            "layout": {},
+            "paint": {
+                "fill-color": "#D7E1AF"
+            }
+        },
+        {
+            "id": "VMD Woodland 10 - 75K",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "VMD Woodland 10 - 75K",
+            "minzoom": 10.94,
+            "maxzoom": 13.85,
+            "layout": {},
+            "paint": {
+                "fill-color": "#D7E1AF"
+            }
+        },
+        {
+            "id": "OML Woodland  0 - 10K",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "OML Woodland  0 - 10K",
+            "minzoom": 13.85,
+            "layout": {},
+            "paint": {
+                "fill-color": "#D7E1AF"
+            }
+        },
+        {
+            "id": "OML SurfaceWater_Area  0 - 10K",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "OML SurfaceWater_Area  0 - 10K",
+            "minzoom": 13.85,
+            "layout": {},
+            "paint": {
+                "fill-color": "#BECDDC"
+            }
+        },
+        {
+            "id": "VMD Building 10 - 50K",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "VMD Building 10 - 50K",
+            "minzoom": 11.53,
+            "maxzoom": 13.85,
+            "layout": {},
+            "paint": {
+                "fill-color": "#DADADA"
+            }
+        },
+        {
+            "id": "OML Building  0 - 10K",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "OML Building  0 - 10K",
+            "minzoom": 13.85,
+            "layout": {},
+            "paint": {
+                "fill-color": "#DADADA",
+                "fill-outline-color": "#DADADA"
+            }
+        },
+        {
+            "id": "OML Glasshouse  0 - 10K",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "OML Glasshouse  0 - 10K",
+            "minzoom": 13.85,
+            "layout": {},
+            "paint": {
+                "fill-color": "#DADADA",
+                "fill-outline-color": "#969696"
+            }
+        },
+        {
+            "id": "Coastline 2M - 20M",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "Coastline 2M - 20M",
+            "maxzoom": 6.21,
+            "layout": {},
+            "paint": {
+                "line-color": "#BECDDC",
+                "line-width": 0.133333
+            }
+        },
+        {
+            "id": "VMD National Boundary 15K - 5M/National",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD National Boundary 15K - 5M",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 4.88,
+            "maxzoom": 13.26,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#B2B2B2",
+                "line-dasharray": [
+                    6,
+                    2
+                ],
+                "line-width": 1.33333
+            }
+        },
+        {
+            "id": "VMD TidalBoundary 10K - 2M",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD TidalBoundary 10K - 2M",
+            "minzoom": 6.21,
+            "maxzoom": 13.85,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#BECDDC",
+                "line-width": 1.33333
+            }
+        },
+        {
+            "id": "VMD SurfaceWater_Line 15K - 50K",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD SurfaceWater_Line 15K - 50K",
+            "minzoom": 11.53,
+            "maxzoom": 13.26,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#BECDDC",
+                "line-width": 1.33333
+            }
+        },
+        {
+            "id": "OpenRivers 10K - 150K",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OpenRivers 10K - 150K",
+            "minzoom": 9.94,
+            "maxzoom": 13.85,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#BECDDC",
+                "line-width": 1.33333
+            }
+        },
+        {
+            "id": "OML TidalBoundary  0 - 10K",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML TidalBoundary  0 - 10K",
+            "minzoom": 13.85,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#BECDDC",
+                "line-width": 1.33333
+            }
+        },
+        {
+            "id": "OML SurfaceWater_Line  0 - 10K",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML SurfaceWater_Line  0 - 10K",
+            "minzoom": 13.85,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#BECDDC",
+                "line-width": 1.33333
+            }
+        },
+        {
+            "id": "VMD RailwayTrack 10K - 400K/Multi Track",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD RailwayTrack 10K - 400K",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 8.53,
+            "maxzoom": 13.85,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#686868",
+                "line-width": 1.6
+            }
+        },
+        {
+            "id": "VMD RailwayTrack 10K - 400K/Narrow Gauge",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD RailwayTrack 10K - 400K",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 10.53,
+            "maxzoom": 13.85,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#9C9C9C",
+                "line-width": 0.266667
+            }
+        },
+        {
+            "id": "VMD RailwayTrack 10K - 400K/Single Track",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD RailwayTrack 10K - 400K",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 8.53,
+            "maxzoom": 13.85,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#686868",
+                "line-width": 1.33333
+            }
+        },
+        {
+            "id": "VMD RailwayTrack 10K - 400K/",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD RailwayTrack 10K - 400K",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 8.53,
+            "maxzoom": 13.85,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#686868",
+                "line-width": 1.33333
+            }
+        },
+        {
+            "id": "VMD RailwayTunnel 10K - 400K",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD RailwayTunnel 10K - 400K",
+            "minzoom": 8.53,
+            "maxzoom": 13.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#686868",
+                "line-dasharray": [
+                    3,
+                    3
+                ],
+                "line-width": 1.33333
+            }
+        },
+        {
+            "id": "OML RailwayTunnel  0 - 10K",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML RailwayTunnel  0 - 10K",
+            "minzoom": 13.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#8C8C8C",
+                "line-dasharray": [
+                    3,
+                    3
+                ],
+                "line-width": 1.33333
+            }
+        },
+        {
+            "id": "OML RailwayTrack 0 - 10K/Multi Track; Single Track; Narrow Gauge",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML RailwayTrack 0 - 10K",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 13.85,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#8C8C8C",
+                "line-width": 1.33333
+            }
+        },
+        {
+            "id": "VMD RoadTunnel 15K - 475K",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD RoadTunnel 15K - 475K",
+            "minzoom": 8.28,
+            "maxzoom": 13.26,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-dasharray": [
+                    2,
+                    1.5
+                ],
+                "line-width": 2.66667
+            }
+        },
+        {
+            "id": "VMD Roads 125K - 4M/A Road",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 125K - 4M",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 10.53,
+            "maxzoom": 10.21,
+            "layout": {},
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": 2.66667
+            }
+        },
+        {
+            "id": "VMD Roads 125K - 4M/A Road_1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 125K - 4M",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 7.21,
+            "maxzoom": 10.21,
+            "layout": {},
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": 1.46667
+            }
+        },
+        {
+            "id": "VMD Roads 125K - 4M/B Road",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 125K - 4M",
+            "filter": [
+                "==",
+                "_symbol",
+                4
+            ],
+            "minzoom": 8.21,
+            "maxzoom": 10.21,
+            "layout": {
+                "line-cap": "round",
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": 1.33333
+            }
+        },
+        {
+            "id": "VMD Roads 125K - 4M/Primary Road, Collapsed Dual Carriageway",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 125K - 4M",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 10.53,
+            "maxzoom": 10.21,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#CDCDCD",
+                "line-width": 4.66667
+            }
+        },
+        {
+            "id": "VMD Roads 125K - 4M/Primary Road, Collapsed Dual Carriageway_3",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 125K - 4M",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 5.21,
+            "maxzoom": 5.88,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#CDCDCD",
+                "line-width": 2
+            }
+        },
+        {
+            "id": "VMD Roads 125K - 4M/Primary Road, Collapsed Dual Carriageway_2",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 125K - 4M",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 5.88,
+            "maxzoom": 8.21,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#CDCDCD",
+                "line-width": 2.93333
+            }
+        },
+        {
+            "id": "VMD Roads 125K - 4M/Primary Road, Collapsed Dual Carriageway_1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 125K - 4M",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 8.21,
+            "maxzoom": 10.21,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#CDCDCD",
+                "line-width": 3.73333
+            }
+        },
+        {
+            "id": "VMD Roads 125K - 4M/Primary Road",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 125K - 4M",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 10.53,
+            "maxzoom": 10.21,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#CDCDCD",
+                "line-width": 2.66667
+            }
+        },
+        {
+            "id": "VMD Roads 125K - 4M/Primary Road_1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 125K - 4M",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 5.21,
+            "maxzoom": 10.21,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#CDCDCD",
+                "line-width": 2
+            }
+        },
+        {
+            "id": "VMD Roads 125K - 4M/Motorway",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 125K - 4M",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 10.53,
+            "maxzoom": 10.21,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": {
+                    "stops": [
+                        [
+                            3.88,
+                            5.33333
+                        ],
+                        [
+                            18.17,
+                            5.33333
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "VMD Roads 125K - 4M/Motorway_3",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 125K - 4M",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 5.21,
+            "maxzoom": 5.88,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 2
+            }
+        },
+        {
+            "id": "VMD Roads 125K - 4M/Motorway_2",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 125K - 4M",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 5.88,
+            "maxzoom": 8.21,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 2.93333
+            }
+        },
+        {
+            "id": "VMD Roads 125K - 4M/Motorway_1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 125K - 4M",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 8.21,
+            "maxzoom": 10.21,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 4.26667
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/Local Road/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                5
+            ],
+            "minzoom": 13,
+            "maxzoom": 13.26,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 6
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/Local Road_1/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                5
+            ],
+            "minzoom": 12.53,
+            "maxzoom": 13,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 5.33333
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/Local Road/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                5
+            ],
+            "minzoom": 13,
+            "maxzoom": 13.26,
+            "layout": {},
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": 4
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/Local Road_2",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                5
+            ],
+            "minzoom": 10.94,
+            "maxzoom": 12.53,
+            "layout": {},
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": {
+                    "stops": [
+                        [
+                            11.53,
+                            2.66667
+                        ],
+                        [
+                            12.53,
+                            2.66667
+                        ]
+                    ]
+                }
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/Local Road_1/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                5
+            ],
+            "minzoom": 12.53,
+            "maxzoom": 13,
+            "layout": {},
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": 3.33333
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/Minor Road/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                4
+            ],
+            "minzoom": 13,
+            "maxzoom": 13.26,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 7.33333
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/Minor Road_4/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                4
+            ],
+            "minzoom": 10.21,
+            "maxzoom": 10.53,
+            "layout": {},
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": 1.33333
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/Minor Road_3/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                4
+            ],
+            "minzoom": 10.53,
+            "maxzoom": 11.53,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 4.66667
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/Minor Road_2/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                4
+            ],
+            "minzoom": 11.53,
+            "maxzoom": 12.53,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 6
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/Minor Road_1/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                4
+            ],
+            "minzoom": 12.53,
+            "maxzoom": 13,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 9.33333
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/Minor Road/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                4
+            ],
+            "minzoom": 13,
+            "maxzoom": 13.26,
+            "layout": {},
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": 4.58333
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/Minor Road_3/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                4
+            ],
+            "minzoom": 10.53,
+            "maxzoom": 11.53,
+            "layout": {},
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": 2.66667
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/Minor Road_2/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                4
+            ],
+            "minzoom": 11.53,
+            "maxzoom": 12.53,
+            "layout": {},
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": 4
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/Minor Road_1/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                4
+            ],
+            "minzoom": 12.53,
+            "maxzoom": 13,
+            "layout": {},
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": 6
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/B Road/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 13,
+            "maxzoom": 13.26,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 9.33333
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/B Road_3/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 10.21,
+            "maxzoom": 11.53,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 4.66667
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/B Road_2/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 11.53,
+            "maxzoom": 12.53,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 6
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/B Road_1/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 12.53,
+            "maxzoom": 13,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 8
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/B Road/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 13,
+            "maxzoom": 13.26,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": 6
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/B Road_3/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 10.21,
+            "maxzoom": 11.53,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": 2.66667
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/B Road_2/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 11.53,
+            "maxzoom": 12.53,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": 4
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/B Road_1/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 12.53,
+            "maxzoom": 13,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": 5.33333
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/A Road/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 13,
+            "maxzoom": 13.26,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 9.33333
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/A Road_3/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 10.21,
+            "maxzoom": 11.53,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 4.66667
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/A Road_2/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 11.53,
+            "maxzoom": 12.53,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 6
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/A Road_1/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 12.53,
+            "maxzoom": 13,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 8
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/A Road/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 13,
+            "maxzoom": 13.26,
+            "layout": {},
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": 6
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/A Road_3/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 10.21,
+            "maxzoom": 11.53,
+            "layout": {},
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": 2.66667
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/A Road_2/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 11.53,
+            "maxzoom": 12.53,
+            "layout": {},
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": 4
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/A Road_1/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 12.53,
+            "maxzoom": 13,
+            "layout": {},
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": 5.33333
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/Primary Road/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 13,
+            "maxzoom": 13.26,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 9.33333
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/Primary Road_3/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 10.21,
+            "maxzoom": 11.53,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 4.66667
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/Primary Road_2/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 11.53,
+            "maxzoom": 12.53,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 6
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/Primary Road_1/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 12.53,
+            "maxzoom": 13,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 8
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/Primary Road/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 13,
+            "maxzoom": 13.26,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#DADADA",
+                "line-width": 6
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/Primary Road_3/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 10.21,
+            "maxzoom": 11.53,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#DADADA",
+                "line-width": 2.66667
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/Primary Road_2/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 11.53,
+            "maxzoom": 12.53,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#DADADA",
+                "line-width": 4
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/Primary Road_1/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 12.53,
+            "maxzoom": 13,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#DADADA",
+                "line-width": 5.33333
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/Motorway/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 13,
+            "maxzoom": 13.26,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 9.33333
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/Motorway_3/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 10.21,
+            "maxzoom": 11.53,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 4.66667
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/Motorway_2/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 11.53,
+            "maxzoom": 12.53,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 6
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/Motorway_1/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 12.53,
+            "maxzoom": 13,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 8
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/Motorway/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 13,
+            "maxzoom": 13.26,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#DADADA",
+                "line-width": 6
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/Motorway_3/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 10.21,
+            "maxzoom": 11.53,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#DADADA",
+                "line-width": 2.66667
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/Motorway_2/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 11.53,
+            "maxzoom": 12.53,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#DADADA",
+                "line-width": 4
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/Motorway_1/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 12.53,
+            "maxzoom": 13,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#DADADA",
+                "line-width": 5.33333
+            }
+        },
+        {
+            "id": "OML RoadTunnel  0 - 15K",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML RoadTunnel  0 - 15K",
+            "minzoom": 13.26,
+            "layout": {},
+            "paint": {
+                "line-color": "#D9D9D9",
+                "line-dasharray": [
+                    1.33333,
+                    1
+                ],
+                "line-width": 4
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Motorway/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 16.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 33.3333
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Motorway_4/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 13.26,
+            "maxzoom": 14.26,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 8
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Motorway_3/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 14.26,
+            "maxzoom": 14.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 12
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Motorway_2/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 14.85,
+            "maxzoom": 15.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 16
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Motorway_1/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 15.85,
+            "maxzoom": 16.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 20
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Primary Road/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 16.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 31.3333
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Primary Road_4/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 13.26,
+            "maxzoom": 14.26,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 6
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Primary Road_3/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 14.26,
+            "maxzoom": 14.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 10
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Primary Road_2/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 14.85,
+            "maxzoom": 15.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 14
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Primary Road_1/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 15.85,
+            "maxzoom": 16.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 18
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/A Road/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 16.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 31.3333
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/A Road_4/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 13.26,
+            "maxzoom": 14.26,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 6
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/A Road_3/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 14.26,
+            "maxzoom": 14.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 10
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/A Road_2/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 14.85,
+            "maxzoom": 15.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 14
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/A Road_1/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 15.85,
+            "maxzoom": 16.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 18
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/B Road/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 16.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 31.3333
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/B Road_4/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 13.26,
+            "maxzoom": 14.26,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 6
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/B Road_3/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 14.26,
+            "maxzoom": 14.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 10
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/B Road_2/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 14.85,
+            "maxzoom": 15.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 14
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/B Road_1/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 15.85,
+            "maxzoom": 16.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 18
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Minor Road/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                4
+            ],
+            "minzoom": 16.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 31.3333
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Minor Road_4/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                4
+            ],
+            "minzoom": 13.26,
+            "maxzoom": 14.26,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 6
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Minor Road_3/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                4
+            ],
+            "minzoom": 14.26,
+            "maxzoom": 14.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 10
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Minor Road_2/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                4
+            ],
+            "minzoom": 14.85,
+            "maxzoom": 15.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 14
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Minor Road_1/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                4
+            ],
+            "minzoom": 15.85,
+            "maxzoom": 16.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 18
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Local Road/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                5
+            ],
+            "minzoom": 16.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 31.3333
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Local Road_4/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                5
+            ],
+            "minzoom": 13.26,
+            "maxzoom": 14.26,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 6
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Local Road_3/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                5
+            ],
+            "minzoom": 14.26,
+            "maxzoom": 14.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 10
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Local Road_2/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                5
+            ],
+            "minzoom": 14.85,
+            "maxzoom": 15.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 14
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Local Road_1/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                5
+            ],
+            "minzoom": 15.85,
+            "maxzoom": 16.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#B3B3B3",
+                "line-width": 18
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Local Road/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                5
+            ],
+            "minzoom": 16.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": 26.6667
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Local Road_4/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                5
+            ],
+            "minzoom": 13.26,
+            "maxzoom": 14.26,
+            "layout": {},
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": 4
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Local Road_3/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                5
+            ],
+            "minzoom": 14.26,
+            "maxzoom": 14.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": 6.66667
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Local Road_2/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                5
+            ],
+            "minzoom": 14.85,
+            "maxzoom": 15.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": 9.33333
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Local Road_1/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                5
+            ],
+            "minzoom": 15.85,
+            "maxzoom": 16.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": 13.3333
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Minor Road/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                4
+            ],
+            "minzoom": 16.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": 26.6667
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Minor Road_4/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                4
+            ],
+            "minzoom": 13.26,
+            "maxzoom": 14.26,
+            "layout": {},
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": 4
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Minor Road_3/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                4
+            ],
+            "minzoom": 14.26,
+            "maxzoom": 14.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": 6.66667
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Minor Road_2/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                4
+            ],
+            "minzoom": 14.85,
+            "maxzoom": 15.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": 9.33333
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Minor Road_1/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                4
+            ],
+            "minzoom": 15.85,
+            "maxzoom": 16.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": 13.3333
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/B Road/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 16.85,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": 26.6667
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/B Road_4/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 13.26,
+            "maxzoom": 14.26,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": 4
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/B Road_3/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 14.26,
+            "maxzoom": 14.85,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": 6.66667
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/B Road_2/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 14.85,
+            "maxzoom": 15.85,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": 9.33333
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/B Road_1/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                3
+            ],
+            "minzoom": 15.85,
+            "maxzoom": 16.85,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": 13.3333
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/A Road/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 16.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": 26.6667
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/A Road_4/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 13.26,
+            "maxzoom": 14.26,
+            "layout": {},
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": 4
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/A Road_3/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 14.26,
+            "maxzoom": 14.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": 6.66667
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/A Road_2/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 14.85,
+            "maxzoom": 15.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": 9.33333
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/A Road_1/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                2
+            ],
+            "minzoom": 15.85,
+            "maxzoom": 16.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#F8F8F9",
+                "line-width": 13.3333
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Primary Road/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 16.85,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#DADADA",
+                "line-width": 26.6667
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Primary Road_4/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 13.26,
+            "maxzoom": 14.26,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#DADADA",
+                "line-width": 4
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Primary Road_3/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 14.26,
+            "maxzoom": 14.85,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#DADADA",
+                "line-width": 6.66667
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Primary Road_2/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 14.85,
+            "maxzoom": 15.85,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#DADADA",
+                "line-width": 9.33333
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Primary Road_1/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                1
+            ],
+            "minzoom": 15.85,
+            "maxzoom": 16.85,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#DADADA",
+                "line-width": 13.3333
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Motorway/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 16.85,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#DADADA",
+                "line-width": 30
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Motorway_4/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 13.26,
+            "maxzoom": 14.26,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#DADADA",
+                "line-width": 6
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Motorway_3/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 14.26,
+            "maxzoom": 14.85,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#DADADA",
+                "line-width": 8.66667
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Motorway_2/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 14.85,
+            "maxzoom": 15.85,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#DADADA",
+                "line-width": 12.6667
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/Motorway_1/0",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K",
+            "filter": [
+                "==",
+                "_symbol",
+                0
+            ],
+            "minzoom": 15.85,
+            "maxzoom": 16.85,
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "#DADADA",
+                "line-width": 16.6667
+            }
+        },
+        {
+            "id": "OML ElectricityTransmissionLine 0 - 10K/1",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "OML ElectricityTransmissionLine 0 - 10K",
+            "minzoom": 13.85,
+            "layout": {},
+            "paint": {
+                "line-color": "#999999",
+                "line-width": 1.33333
+            }
+        },
+        {
+            "id": "OML ElectricityTransmissionLine 0 - 10K/0",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "OML ElectricityTransmissionLine 0 - 10K",
+            "minzoom": 13.85,
+            "layout": {
+                "symbol-placement": "line",
+                "icon-image": "OML ElectricityTransmissionLine 0 - 10K/0",
+                "symbol-spacing": 40,
+                "icon-rotation-alignment": "map",
+                "icon-allow-overlap": true
+            },
+            "paint": {
+                "icon-color": "#7F7F7F"
+            }
+        },
+        {
+            "id": "VMD RailwayStation 10 - 60K",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "VMD RailwayStation 10 - 60K",
+            "minzoom": 11.26,
+            "maxzoom": 13.85,
+            "layout": {
+                "icon-image": "VMD RailwayStation 10 - 60K",
+                "icon-allow-overlap": true,
+                "text-font": [
+                    "Arial Italic"
+                ],
+                "text-size": 11.3333,
+                "text-anchor": "bottom-left",
+                "text-offset": [
+                    0.558391,
+                    -0.0592564
+                ],
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "icon-color": "#8C8C8C",
+                "text-color": "#7F7F7F",
+                "text-halo-color": "#F8F8F9",
+                "text-halo-width": 1.33333
+            }
+        },
+        {
+            "id": "OML RailwayStation 0 - 10K",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "OML RailwayStation 0 - 10K",
+            "minzoom": 13.85,
+            "layout": {
+                "icon-image": "OML RailwayStation 0 - 10K",
+                "icon-allow-overlap": true,
+                "text-font": [
+                    "Arial Italic"
+                ],
+                "text-size": 11.3333,
+                "text-anchor": "bottom-left",
+                "text-offset": [
+                    0.558391,
+                    -0.0592564
+                ],
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "icon-color": "#8C8C8C",
+                "text-color": "#7F7F7F",
+                "text-halo-color": "#F8F8F9",
+                "text-halo-width": 1.33333
+            }
+        },
+        {
+            "id": "VMD NamedPlace 10K - 7M/VMD NamedPlace 10K - 7M/Landcover/Landform Extra Large",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "VMD NamedPlace 10K - 7M",
+            "filter": [
+                "==",
+                "_label_class",
+                3
+            ],
+            "minzoom": 4.4,
+            "maxzoom": 13.85,
+            "layout": {
+                "icon-image": "VMD NamedPlace 10K - 7M",
+                "icon-allow-overlap": true,
+                "text-font": [
+                    "Arial Italic"
+                ],
+                "text-size": 14.6667,
+                "text-anchor": "bottom-left",
+                "text-offset": [
+                    0.0983733,
+                    0.0301915
+                ],
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "icon-color": "rgba(225,225,225,0)",
+                "text-color": "#828282"
+            }
+        },
+        {
+            "id": "VMD NamedPlace 10K - 7M/VMD NamedPlace 10K - 7M/Landcover/Landform Large",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "VMD NamedPlace 10K - 7M",
+            "filter": [
+                "==",
+                "_label_class",
+                4
+            ],
+            "minzoom": 4.4,
+            "maxzoom": 13.85,
+            "layout": {
+                "icon-image": "VMD NamedPlace 10K - 7M",
+                "icon-allow-overlap": true,
+                "text-font": [
+                    "Arial Italic"
+                ],
+                "text-size": 11.3333,
+                "text-anchor": "bottom-left",
+                "text-offset": [
+                    0.127307,
+                    0.0390714
+                ],
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "icon-color": "rgba(225,225,225,0)",
+                "text-color": "#787878"
+            }
+        },
+        {
+            "id": "VMD NamedPlace 10K - 7M/VMD NamedPlace 10K - 7M/Landcover/Landform Medium",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "VMD NamedPlace 10K - 7M",
+            "filter": [
+                "==",
+                "_label_class",
+                5
+            ],
+            "minzoom": 4.4,
+            "maxzoom": 13.85,
+            "layout": {
+                "icon-image": "VMD NamedPlace 10K - 7M",
+                "icon-allow-overlap": true,
+                "text-font": [
+                    "Arial Italic"
+                ],
+                "text-size": 10.6667,
+                "text-anchor": "bottom-left",
+                "text-offset": [
+                    0.135263,
+                    0.0415133
+                ],
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "icon-color": "rgba(225,225,225,0)",
+                "text-color": "#787878"
+            }
+        },
+        {
+            "id": "VMD NamedPlace 10K - 7M/VMD NamedPlace 10K - 7M/Woodland Medium",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "VMD NamedPlace 10K - 7M",
+            "filter": [
+                "==",
+                "_label_class",
+                11
+            ],
+            "minzoom": 4.4,
+            "maxzoom": 13.85,
+            "layout": {
+                "icon-image": "VMD NamedPlace 10K - 7M",
+                "icon-allow-overlap": true,
+                "text-font": [
+                    "Calibri Italic"
+                ],
+                "text-size": 13.3333,
+                "text-anchor": "bottom-left",
+                "text-offset": [
+                    0.108211,
+                    0.0332107
+                ],
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "icon-color": "rgba(225,225,225,0)",
+                "text-color": "#5C8944"
+            }
+        },
+        {
+            "id": "VMD NamedPlace 10K - 7M/VMD NamedPlace 10K - 7M/Woodland Large",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "VMD NamedPlace 10K - 7M",
+            "filter": [
+                "==",
+                "_label_class",
+                10
+            ],
+            "minzoom": 4.4,
+            "maxzoom": 13.85,
+            "layout": {
+                "icon-image": "VMD NamedPlace 10K - 7M",
+                "icon-allow-overlap": true,
+                "text-font": [
+                    "Calibri Italic"
+                ],
+                "text-size": 14.6667,
+                "text-anchor": "bottom-left",
+                "text-offset": [
+                    0.0983733,
+                    0.0301915
+                ],
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "icon-color": "rgba(225,225,225,0)",
+                "text-color": "#5C8944"
+            }
+        },
+        {
+            "id": "VMD NamedPlace 10K - 7M/VMD NamedPlace 10K - 7M/Hydro Medium",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "VMD NamedPlace 10K - 7M",
+            "filter": [
+                "==",
+                "_label_class",
+                2
+            ],
+            "minzoom": 4.4,
+            "maxzoom": 13.85,
+            "layout": {
+                "icon-image": "VMD NamedPlace 10K - 7M",
+                "icon-allow-overlap": true,
+                "text-font": [
+                    "Calibri Italic"
+                ],
+                "text-size": 12,
+                "text-anchor": "bottom-left",
+                "text-offset": [
+                    0.120234,
+                    0.0369008
+                ],
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "icon-color": "rgba(225,225,225,0)",
+                "text-color": "#509696"
+            }
+        },
+        {
+            "id": "VMD NamedPlace 10K - 7M/VMD NamedPlace 10K - 7M/Hydro Large",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "VMD NamedPlace 10K - 7M",
+            "filter": [
+                "==",
+                "_label_class",
+                1
+            ],
+            "minzoom": 4.4,
+            "maxzoom": 13.85,
+            "layout": {
+                "icon-image": "VMD NamedPlace 10K - 7M",
+                "icon-allow-overlap": true,
+                "text-font": [
+                    "Calibri Italic"
+                ],
+                "text-size": 12.6667,
+                "text-anchor": "bottom-left",
+                "text-offset": [
+                    0.113906,
+                    0.0349586
+                ],
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "icon-color": "rgba(225,225,225,0)",
+                "text-color": "#509696"
+            }
+        },
+        {
+            "id": "National Parks 0 - 5M/label/Default",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "National Parks 0 - 5M/label",
+            "minzoom": 7.62,
+            "layout": {
+                "text-font": [
+                    "Arial Bold"
+                ],
+                "text-size": 13.3333,
+                "text-letter-spacing": 0.5,
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#AEBE85"
+            }
+        },
+        {
+            "id": "GB_GreenspaceSite 0 - 100K/label/Greenspace label 8K - 30K",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "GB_GreenspaceSite 0 - 100K/label",
+            "filter": [
+                "==",
+                "_label_class",
+                0
+            ],
+            "minzoom": 12.26,
+            "maxzoom": 14.17,
+            "layout": {
+                "text-font": [
+                    "Calibri Regular"
+                ],
+                "text-size": 10.6667,
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#267300"
+            }
+        },
+        {
+            "id": "GB_GreenspaceSite 0 - 100K/label/Greenspace label 30K - 50K",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "GB_GreenspaceSite 0 - 100K/label",
+            "filter": [
+                "==",
+                "_label_class",
+                1
+            ],
+            "minzoom": 11.53,
+            "maxzoom": 12.26,
+            "layout": {
+                "text-font": [
+                    "Calibri Regular"
+                ],
+                "text-size": 10.6667,
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#267300"
+            }
+        },
+        {
+            "id": "GB_GreenspaceSite 0 - 100K/label/Greenspace label 0 - 8K",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "GB_GreenspaceSite 0 - 100K/label",
+            "filter": [
+                "==",
+                "_label_class",
+                2
+            ],
+            "minzoom": 14.17,
+            "layout": {
+                "text-font": [
+                    "Calibri Regular"
+                ],
+                "text-size": 10.6667,
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#267300"
+            }
+        },
+        {
+            "id": "VMD Roads 125K - 4M/label/A Road",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "VMD Roads 125K - 4M/label",
+            "filter": [
+                "==",
+                "_label_class",
+                2
+            ],
+            "minzoom": 9.94,
+            "maxzoom": 10.21,
+            "layout": {
+                "symbol-placement": "line",
+                "text-font": [
+                    "Tahoma Regular"
+                ],
+                "text-size": 10,
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#4E4E4E",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 1.33333
+            }
+        },
+        {
+            "id": "OML NamedPlace 0 - 10K/OML NamedPlace 0 - 10K/Woodland Or Forest, Small",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "OML NamedPlace 0 - 10K",
+            "filter": [
+                "==",
+                "_label_class",
+                10
+            ],
+            "minzoom": 13.85,
+            "layout": {
+                "icon-image": "OML NamedPlace 0 - 10K",
+                "icon-allow-overlap": true,
+                "text-font": [
+                    "Calibri Italic"
+                ],
+                "text-size": 12,
+                "text-anchor": "bottom-left",
+                "text-offset": [
+                    0.411901,
+                    -0.254766
+                ],
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "icon-color": "rgba(240,240,240,0)",
+                "text-color": "#5C8944"
+            }
+        },
+        {
+            "id": "OML NamedPlace 0 - 10K/OML NamedPlace 0 - 10K/Hydrography, Small",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "OML NamedPlace 0 - 10K",
+            "filter": [
+                "==",
+                "_label_class",
+                1
+            ],
+            "minzoom": 13.85,
+            "layout": {
+                "icon-image": "OML NamedPlace 0 - 10K",
+                "icon-allow-overlap": true,
+                "text-font": [
+                    "Calibri Italic"
+                ],
+                "text-size": 12,
+                "text-anchor": "bottom-left",
+                "text-offset": [
+                    0.411901,
+                    -0.254766
+                ],
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "icon-color": "rgba(240,240,240,0)",
+                "text-color": "#509696"
+            }
+        },
+        {
+            "id": "OML NamedPlace 0 - 10K/OML NamedPlace 0 - 10K/Landcover, Small; Landform, Small",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "OML NamedPlace 0 - 10K",
+            "filter": [
+                "==",
+                "_label_class",
+                4
+            ],
+            "minzoom": 13.85,
+            "layout": {
+                "icon-image": "OML NamedPlace 0 - 10K",
+                "icon-allow-overlap": true,
+                "text-font": [
+                    "Arial Italic"
+                ],
+                "text-size": 12,
+                "text-anchor": "left",
+                "text-offset": [
+                    0.444444,
+                    0
+                ],
+                "text-rotate": {
+                    "property": "_label_angle",
+                    "default": 0
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "icon-color": "rgba(240,240,240,0)",
+                "text-color": "#9C9C9C"
+            }
+        },
+        {
+            "id": "OML NamedPlace 0 - 10K/OML NamedPlace 0 - 10K/Woodland Or Forest, Medium",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "OML NamedPlace 0 - 10K",
+            "filter": [
+                "==",
+                "_label_class",
+                9
+            ],
+            "minzoom": 13.85,
+            "layout": {
+                "icon-image": "OML NamedPlace 0 - 10K",
+                "icon-allow-overlap": true,
+                "text-font": [
+                    "Calibri Italic"
+                ],
+                "text-size": 13.3333,
+                "text-anchor": "bottom-left",
+                "text-offset": [
+                    0.370711,
+                    -0.229289
+                ],
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "icon-color": "rgba(240,240,240,0)",
+                "text-color": "#5C8944"
+            }
+        },
+        {
+            "id": "OML NamedPlace 0 - 10K/OML NamedPlace 0 - 10K/Landcover, Medium; Landform, Medium",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "OML NamedPlace 0 - 10K",
+            "filter": [
+                "==",
+                "_label_class",
+                3
+            ],
+            "minzoom": 13.85,
+            "layout": {
+                "icon-image": "OML NamedPlace 0 - 10K",
+                "icon-allow-overlap": true,
+                "text-font": [
+                    "Arial Italic"
+                ],
+                "text-size": 14.6667,
+                "text-anchor": "left",
+                "text-offset": [
+                    0.363636,
+                    0
+                ],
+                "text-rotate": {
+                    "property": "_label_angle",
+                    "default": 0
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "icon-color": "rgba(240,240,240,0)",
+                "text-color": "#9C9C9C"
+            }
+        },
+        {
+            "id": "OML NamedPlace 0 - 10K/OML NamedPlace 0 - 10K/Landcover, Large; Landform, Large",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "OML NamedPlace 0 - 10K",
+            "filter": [
+                "==",
+                "_label_class",
+                2
+            ],
+            "minzoom": 13.85,
+            "layout": {
+                "icon-image": "OML NamedPlace 0 - 10K",
+                "icon-allow-overlap": true,
+                "text-font": [
+                    "Arial Italic"
+                ],
+                "text-size": 16,
+                "text-anchor": "left",
+                "text-offset": [
+                    0.333333,
+                    0
+                ],
+                "text-rotate": {
+                    "property": "_label_angle",
+                    "default": 0
+                },
+                "text-letter-spacing": 0.2,
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "icon-color": "rgba(240,240,240,0)",
+                "text-color": "#9C9C9C"
+            }
+        },
+        {
+            "id": "VMD Roads 125K - 4M/label/Primary",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "VMD Roads 125K - 4M/label",
+            "filter": [
+                "==",
+                "_label_class",
+                1
+            ],
+            "minzoom": 8.36,
+            "maxzoom": 10.21,
+            "layout": {
+                "symbol-placement": "line",
+                "text-font": [
+                    "Tahoma Regular"
+                ],
+                "text-size": 10,
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#4E4E4E",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 1.33333
+            }
+        },
+        {
+            "id": "OML NamedPlace 0 - 10K/OML NamedPlace 0 - 10K/Hydrography, Medium, Large",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "OML NamedPlace 0 - 10K",
+            "filter": [
+                "==",
+                "_label_class",
+                0
+            ],
+            "minzoom": 13.85,
+            "layout": {
+                "icon-image": "OML NamedPlace 0 - 10K",
+                "icon-allow-overlap": true,
+                "text-font": [
+                    "Calibri Italic"
+                ],
+                "text-size": 13.3333,
+                "text-anchor": "bottom-left",
+                "text-offset": [
+                    0.370711,
+                    -0.229289
+                ],
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "icon-color": "rgba(240,240,240,0)",
+                "text-color": "#509696"
+            }
+        },
+        {
+            "id": "VMD Roads 125K - 4M/label/Motorway",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "VMD Roads 125K - 4M/label",
+            "filter": [
+                "==",
+                "_label_class",
+                0
+            ],
+            "minzoom": 7.83,
+            "maxzoom": 10.21,
+            "layout": {
+                "symbol-placement": "line",
+                "text-font": [
+                    "Tahoma Regular"
+                ],
+                "text-size": 10.6667,
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#4E4E4E",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 1.33333
+            }
+        },
+        {
+            "id": "OML NamedPlace 0 - 10K/OML NamedPlace 0 - 10K/Woodland Or Forest, Large",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "OML NamedPlace 0 - 10K",
+            "filter": [
+                "==",
+                "_label_class",
+                8
+            ],
+            "minzoom": 13.85,
+            "layout": {
+                "icon-image": "OML NamedPlace 0 - 10K",
+                "icon-allow-overlap": true,
+                "text-font": [
+                    "Calibri Italic"
+                ],
+                "text-size": 14.6667,
+                "text-anchor": "bottom-left",
+                "text-offset": [
+                    0.33701,
+                    -0.208445
+                ],
+                "text-letter-spacing": 0.2,
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "icon-color": "rgba(240,240,240,0)",
+                "text-color": "#5C8944"
+            }
+        },
+        {
+            "id": "VMD NamedPlace 10K - 7M/VMD NamedPlace 10K - 7M/Hydro Extra Large",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "VMD NamedPlace 10K - 7M",
+            "filter": [
+                "==",
+                "_label_class",
+                0
+            ],
+            "minzoom": 4.4,
+            "maxzoom": 13.85,
+            "layout": {
+                "icon-image": "VMD NamedPlace 10K - 7M",
+                "icon-allow-overlap": true,
+                "text-font": [
+                    "Calibri Italic"
+                ],
+                "text-size": 14.6667,
+                "text-anchor": "bottom-left",
+                "text-offset": [
+                    0.0983733,
+                    0.0301915
+                ],
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "icon-color": "rgba(225,225,225,0)",
+                "text-color": "#509696"
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/label/Road Names",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K/label",
+            "filter": [
+                "==",
+                "_label_class",
+                0
+            ],
+            "minzoom": 13.26,
+            "layout": {
+                "symbol-placement": "line",
+                "text-font": [
+                    "Tahoma Regular"
+                ],
+                "text-size": 12,
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#686868",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 1.33333
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/label/Road Numbers",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K/label",
+            "filter": [
+                "==",
+                "_label_class",
+                1
+            ],
+            "minzoom": 13.26,
+            "maxzoom": 16.17,
+            "layout": {
+                "symbol-placement": "line",
+                "text-font": [
+                    "Tahoma Regular"
+                ],
+                "text-size": 12.6667,
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#4E4E4E",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 1.33333
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/label/Road Name",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K/label",
+            "filter": [
+                "==",
+                "_label_class",
+                3
+            ],
+            "minzoom": 12.53,
+            "maxzoom": 13.26,
+            "layout": {
+                "symbol-placement": "line",
+                "text-font": [
+                    "Tahoma Regular"
+                ],
+                "text-size": 10.6667,
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#686868",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 1.33333
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/label/A & B Road",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K/label",
+            "filter": [
+                "==",
+                "_label_class",
+                2
+            ],
+            "minzoom": 10.85,
+            "maxzoom": 13.26,
+            "layout": {
+                "symbol-placement": "line",
+                "text-font": [
+                    "Tahoma Regular"
+                ],
+                "text-size": 10.6667,
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#4E4E4E",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 1.33333
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/label/Primary",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K/label",
+            "filter": [
+                "==",
+                "_label_class",
+                1
+            ],
+            "minzoom": 10.21,
+            "maxzoom": 13.26,
+            "layout": {
+                "symbol-placement": "line",
+                "text-font": [
+                    "Tahoma Regular"
+                ],
+                "text-size": 11.3333,
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#4E4E4E",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 1.33333
+            }
+        },
+        {
+            "id": "VMD Roads 15K - 125K/label/Motorway",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "VMD Roads 15K - 125K/label",
+            "filter": [
+                "==",
+                "_label_class",
+                0
+            ],
+            "minzoom": 10.21,
+            "maxzoom": 13.26,
+            "layout": {
+                "symbol-placement": "line",
+                "text-font": [
+                    "Tahoma Regular"
+                ],
+                "text-size": 12,
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#4E4E4E",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 1.33333
+            }
+        },
+        {
+            "id": "OML NamedPlace 0 - 10K/OML NamedPlace 0 - 10K/Populated Place, Small",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "OML NamedPlace 0 - 10K",
+            "filter": [
+                "==",
+                "_label_class",
+                7
+            ],
+            "minzoom": 13.85,
+            "layout": {
+                "icon-image": "OML NamedPlace 0 - 10K",
+                "icon-allow-overlap": true,
+                "text-font": [
+                    "Arial Regular"
+                ],
+                "text-size": 10.6667,
+                "text-anchor": "left",
+                "text-offset": [
+                    0.5,
+                    0
+                ],
+                "text-rotate": {
+                    "property": "_label_angle",
+                    "default": 0
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "icon-color": "rgba(240,240,240,0)",
+                "text-color": "#686868",
+                "text-halo-color": "#F8F8F9",
+                "text-halo-width": 1.33333
+            }
+        },
+        {
+            "id": "VMD NamedPlace 10K - 7M/VMD NamedPlace 10K - 7M/Populated Place Small",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "VMD NamedPlace 10K - 7M",
+            "filter": [
+                "==",
+                "_label_class",
+                9
+            ],
+            "minzoom": 4.4,
+            "maxzoom": 13.85,
+            "layout": {
+                "icon-image": "VMD NamedPlace 10K - 7M",
+                "icon-allow-overlap": true,
+                "text-font": [
+                    "Arial Regular"
+                ],
+                "text-size": 10.6667,
+                "text-anchor": "bottom-left",
+                "text-offset": [
+                    0.135263,
+                    0.0415133
+                ],
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "icon-color": "rgba(225,225,225,0)",
+                "text-color": "#686868"
+            }
+        },
+        {
+            "id": "VMD NamedPlace 10K - 7M/VMD NamedPlace 10K - 7M/Populated Place Medium",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "VMD NamedPlace 10K - 7M",
+            "filter": [
+                "==",
+                "_label_class",
+                8
+            ],
+            "minzoom": 4.4,
+            "maxzoom": 13.85,
+            "layout": {
+                "icon-image": "VMD NamedPlace 10K - 7M",
+                "icon-allow-overlap": true,
+                "text-font": [
+                    "Arial Regular"
+                ],
+                "text-size": 11.3333,
+                "text-anchor": "bottom-left",
+                "text-offset": [
+                    0.127307,
+                    0.0390714
+                ],
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "icon-color": "rgba(225,225,225,0)",
+                "text-color": "#686868",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 1.33333
+            }
+        },
+        {
+            "id": "OML NamedPlace 0 - 10K/OML NamedPlace 0 - 10K/Populated Place, Medium",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "OML NamedPlace 0 - 10K",
+            "filter": [
+                "==",
+                "_label_class",
+                6
+            ],
+            "minzoom": 13.85,
+            "layout": {
+                "icon-image": "OML NamedPlace 0 - 10K",
+                "icon-allow-overlap": true,
+                "text-font": [
+                    "Arial Regular"
+                ],
+                "text-size": 12,
+                "text-anchor": "left",
+                "text-offset": [
+                    0.444444,
+                    0
+                ],
+                "text-rotate": {
+                    "property": "_label_angle",
+                    "default": 0
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "icon-color": "rgba(240,240,240,0)",
+                "text-color": "#4E4E4E",
+                "text-halo-color": "#F8F8F9",
+                "text-halo-width": 1.33333
+            }
+        },
+        {
+            "id": "OML MotorwayJunction - 50K",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "OML MotorwayJunction - 50K",
+            "minzoom": 11.53,
+            "layout": {
+                "icon-image": "OML MotorwayJunction - 50K",
+                "icon-allow-overlap": true,
+                "text-font": [
+                    "Tahoma Bold"
+                ],
+                "text-size": 11.3333,
+                "text-anchor": "center",
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "icon-color": "rgba(240,240,240,0)",
+                "text-color": "#4E4E4E",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 1.33333
+            }
+        },
+        {
+            "id": "OML NamedPlace 0 - 10K/OML NamedPlace 0 - 10K/Populated Place, Large",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "OML NamedPlace 0 - 10K",
+            "filter": [
+                "==",
+                "_label_class",
+                5
+            ],
+            "minzoom": 13.85,
+            "layout": {
+                "icon-image": "OML NamedPlace 0 - 10K",
+                "icon-allow-overlap": true,
+                "text-font": [
+                    "Arial Bold"
+                ],
+                "text-size": 14.6667,
+                "text-anchor": "left",
+                "text-offset": [
+                    0.363636,
+                    0
+                ],
+                "text-rotate": {
+                    "property": "_label_angle",
+                    "default": 0
+                },
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "icon-color": "rgba(240,240,240,0)",
+                "text-color": "#686868",
+                "text-halo-color": "#F8F8F9",
+                "text-halo-width": 1.33333
+            }
+        },
+        {
+            "id": "VMD NamedPlace 10K - 7M/VMD NamedPlace 10K - 7M/Populated Place Large 10-125K",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "VMD NamedPlace 10K - 7M",
+            "filter": [
+                "==",
+                "_label_class",
+                7
+            ],
+            "minzoom": 4.4,
+            "maxzoom": 13.85,
+            "layout": {
+                "icon-image": "VMD NamedPlace 10K - 7M",
+                "icon-allow-overlap": true,
+                "text-font": [
+                    "Arial Bold"
+                ],
+                "text-size": 13.3333,
+                "text-anchor": "bottom-left",
+                "text-offset": [
+                    0.108211,
+                    0.0332107
+                ],
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "icon-color": "rgba(225,225,225,0)",
+                "text-color": "#686868",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 1.33333
+            }
+        },
+        {
+            "id": "VMD NamedPlace 10K - 7M/VMD NamedPlace 10K - 7M/Populated Place Large 125-500K",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "VMD NamedPlace 10K - 7M",
+            "filter": [
+                "==",
+                "_label_class",
+                13
+            ],
+            "minzoom": 4.4,
+            "maxzoom": 13.85,
+            "layout": {
+                "icon-image": "VMD NamedPlace 10K - 7M",
+                "icon-allow-overlap": true,
+                "text-font": [
+                    "Arial Regular"
+                ],
+                "text-size": 10.6667,
+                "text-anchor": "bottom-left",
+                "text-offset": [
+                    0.135263,
+                    0.0415133
+                ],
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "icon-color": "rgba(225,225,225,0)",
+                "text-color": "#686868",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 1.33333
+            }
+        },
+        {
+            "id": "Airport points 0 - 800K",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "Airport points 0 - 800K",
+            "minzoom": 7.53,
+            "layout": {
+                "icon-image": "Airport points 0 - 800K",
+                "icon-allow-overlap": true,
+                "text-font": [
+                    "Arial Bold Italic"
+                ],
+                "text-size": 11.3333,
+                "text-anchor": "bottom-left",
+                "text-offset": [
+                    0.778979,
+                    -0.279845
+                ],
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "icon-color": "#58595B",
+                "text-color": "#686868",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 1.33333
+            }
+        },
+        {
+            "id": "VMD NamedPlace 10K - 7M/VMD NamedPlace 10K - 7M/Populated Place Extra Large 10-125K",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "VMD NamedPlace 10K - 7M",
+            "filter": [
+                "==",
+                "_label_class",
+                6
+            ],
+            "minzoom": 4.4,
+            "maxzoom": 13.85,
+            "layout": {
+                "icon-image": "VMD NamedPlace 10K - 7M",
+                "icon-allow-overlap": true,
+                "text-font": [
+                    "Arial Bold"
+                ],
+                "text-size": 16,
+                "text-anchor": "bottom-left",
+                "text-offset": [
+                    0.0901756,
+                    0.0276756
+                ],
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "icon-color": "rgba(225,225,225,0)",
+                "text-color": "#686868",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 1.33333
+            }
+        },
+        {
+            "id": "VMD NamedPlace 10K - 7M/VMD NamedPlace 10K - 7M/Populated Place Extra Large 125-2M",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "VMD NamedPlace 10K - 7M",
+            "filter": [
+                "==",
+                "_label_class",
+                12
+            ],
+            "minzoom": 4.4,
+            "maxzoom": 13.85,
+            "layout": {
+                "icon-image": "VMD NamedPlace 10K - 7M",
+                "icon-allow-overlap": true,
+                "text-font": [
+                    "Arial Bold"
+                ],
+                "text-size": 13.3333,
+                "text-anchor": "bottom-left",
+                "text-offset": [
+                    0.108211,
+                    0.0332107
+                ],
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "icon-color": "rgba(225,225,225,0)",
+                "text-color": "#686868",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 1.33333
+            }
+        },
+        {
+            "id": "VMD NamedPlace 10K - 7M/VMD NamedPlace 10K - 7M/Populated Place Extra Large 2-7M",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "VMD NamedPlace 10K - 7M",
+            "filter": [
+                "==",
+                "_label_class",
+                14
+            ],
+            "minzoom": 4.4,
+            "maxzoom": 13.85,
+            "layout": {
+                "icon-image": "VMD NamedPlace 10K - 7M",
+                "icon-allow-overlap": true,
+                "text-font": [
+                    "Arial Bold"
+                ],
+                "text-size": 11.3333,
+                "text-anchor": "bottom-left",
+                "text-offset": [
+                    0.127307,
+                    0.0390714
+                ],
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "icon-color": "rgba(225,225,225,0)",
+                "text-color": "#686868",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 1.33333
+            }
+        },
+        {
+            "id": "OML Roads 0 - 15K/label/Motorway",
+            "type": "symbol",
+            "source": "esri",
+            "source-layer": "OML Roads 0 - 15K/label",
+            "filter": [
+                "==",
+                "_label_class",
+                2
+            ],
+            "minzoom": 13.26,
+            "layout": {
+                "symbol-placement": "line",
+                "text-font": [
+                    "Tahoma Bold"
+                ],
+                "text-size": 13.3333,
+                "text-field": "{_name}",
+                "text-optional": true
+            },
+            "paint": {
+                "text-color": "#4E4E4E",
+                "text-halo-color": "#FFFFFF",
+                "text-halo-width": 1.33333
+            }
+        }
+    ],
+    "_ssl": false
+}
